@@ -26,6 +26,34 @@ for basket in fruitNames
 print(fruitNames[1])
 print(fruitNames[0])
 
+//Part 8. Start of Assignmant #4
+var numbers: [Int] = [10, 20,30, 40, 50]
+
+print(numbers)
+
+print("I like these numbers\(numbers)")
+    
+for computer in numbers
+{
+print("I like these numbers" , computer)
+}
+print(numbers[4])
+print(numbers[0])
+
+//Part 9
+
+let removed = numbers.remove(at: 2)
+
+for computer in numbers{
+    
+print("I like these numbers" , computer)
+
+}
+
+
+
+
+
 
 
 
